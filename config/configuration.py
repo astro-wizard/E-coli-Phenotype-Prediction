@@ -14,8 +14,7 @@ config["MODEL"] = {
     "Supervised model": "../model/supervised_model.h5"
 }
 config["PREDICT"] = {
-    "toy_model_pheno": "../data/toy/toy_supervised_phenotype.csv",
-    "toy_model_sup": "../data/toy/toy_supervised_transcriptomics.csv",
+    "predict_supervised": "../data/toy/toy_supervised_transcriptomics.csv",
     "prediction": "..data/toy/supervised_prediction.csv"
 }
 
