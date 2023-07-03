@@ -46,7 +46,7 @@ python src/main.py
 ```
 This script will read the data from the specified files, build the model, train the autoencoder on the unsupervised gene expression data, and then train the supervised model using the encoder layers and supervised gene expression data.
 
-4. After training, you can make predictions for E. coli phenotype using predict.py:
+4. After training or without training(using trained model in repository), you can make predictions for E. coli phenotype using predict.py:
 ```bash 
 python src/predict.py
 ```
