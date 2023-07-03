@@ -60,7 +60,7 @@ def train_supervised(autoencoder_model, gene, phenotype, path_to_save_supervised
     supervised_model.compile(optimizer=tf.keras.optimizers.Adam(),
                              loss=rmse_loss,
                              metrics=['mae', 'mse'])
-    supervised_model.fit(gene, phenotype, epochs=1)
+    supervised_model.fit(gene, phenotype, epochs=100)
     supervised_model.save(path_to_save_supervised)
 
 

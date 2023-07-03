@@ -42,5 +42,5 @@ def train_autoencoder(model, data, path_to_save):
     #  learning rate will decrease by a factor of 10 every 20 epochs.
     exponential_decay_fn = exponential_decay(lr0=0.001, s=20)
     lr_scheduler = tf.keras.callbacks.LearningRateScheduler(exponential_decay_fn)
-    model.fit(data, data, epochs=1, batch_size=100, callbacks=[lr_scheduler])
+    model.fit(data, data, epochs=100, batch_size=100, callbacks=[lr_scheduler])
     model.save(path_to_save)
