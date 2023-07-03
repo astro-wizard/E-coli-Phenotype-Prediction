@@ -33,6 +33,8 @@ Edit the `config/config.py` file to specify the file paths for the input data an
 - `protein_phenotype`: Path to the protein-phenotype mask file.
 - `autoencoder_model`: Path to save the trained autoencoder model.
 - `supervised_model`: Path to save the trained supervised model.
+- `predict_supervised`: Path to the supervised transcriptomics data file to predict phenotypes for.
+- `prediction`: Path to save the prediction results.
 
 2. Run config.py to set up the configuration and create config.yaml file:
 ```bash
