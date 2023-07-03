@@ -51,3 +51,8 @@ This script will read the data from the specified files, build the model, train 
 python src/predict.py
 ```
 This script will load the trained model and use it to predict the phenotype based on the provided gene expression data.
+## Acknowledgments
+
+- The biological-inspired neural network architecture was developed based on prior research and publications in the field.
+- The implementation of the autoencoder and supervised models leverages the TensorFlow framework.
+- The project structure and configuration setup were inspired by best practices in software engineering.
