@@ -7,11 +7,11 @@ To run the code in this repository, please follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/repo-name.git
+git clone https://github.com/prabhattiwari16/E-coli-Phenotype-Prediction.git
 ```
 2. Navigate to the project directory:
 ```bash
-cd repo-name
+cd E-coli-Phenotype-Prediction # path to the repository
 ```
 
 3. Install the required dependencies:
@@ -36,16 +36,16 @@ Edit the `config/config.py` file to specify the file paths for the input data an
 
 2. Run config.py to set up the configuration and create config.yaml file:
 ```bash
-python config.py
+python config/config.py 
 ```
 3. Once the configuration is set, run main.py to train the biological-inspired neural network:
 ```bash
-python main.py
+python src/main.py
 ```
 This script will read the data from the specified files, build the model, train the autoencoder on the unsupervised gene expression data, and then train the supervised model using the encoder layers and supervised gene expression data.
 
 4. After training, you can make predictions for E. coli phenotype using predict.py:
 ```bash 
-python predict.py
+python src/predict.py
 ```
 This script will load the trained model and use it to predict the phenotype based on the provided gene expression data.
