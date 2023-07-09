@@ -1,6 +1,8 @@
 # E-coli Phenotype Prediction (Biological inspired neural network)
 This repository contains code for a Biological Inspired Neural Network (BI-NN) that predicts the phenotype of E. coli bacteria based on their transcriptomic profile of gene expressions. The BI-NN model utilizes an autoencoder architecture along with gene-protein and protein-phenotype masks to learn the underlying patterns in the data and make predictions.
 
+
+
 ## Installation
 To run the code in this repository, please follow these steps:
 
@@ -56,3 +58,7 @@ This script will load the trained model and use it to predict the phenotype base
 - The biological-inspired neural network architecture was developed based on prior research and publications in the field.
 - The implementation of the autoencoder and supervised models leverages the TensorFlow framework.
 - The project structure and configuration setup were inspired by best practices in software engineering.
+
+Link to download data
+https://www.dropbox.com/s/7kaw8m7ozp3liyc/iJO1366_demo.tar.gz?dl=0
+
